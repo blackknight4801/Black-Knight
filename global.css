@@ -1,0 +1,14 @@
+div#placeholder > h1 {
+    text-align: center;
+}
+div#page > h1 {
+    text-align: center;
+}
+div#page {
+    margin: 5px auto 0px auto;
+    background: linear-gradient(90deg rgb(17, 25, 25) rgb(25, 85, 87));
+    color: white;
+}
+div#placeholder {
+    margin: 5px auto 0px auto;
+}
