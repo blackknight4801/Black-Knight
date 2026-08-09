@@ -9,6 +9,7 @@ div#page {
     background: linear-gradient(90deg, rgb(17, 25, 25), rgb(25, 85, 87));
     width: 70%;
     color: white;
+    padding: 10px 5px 10px 3px;
 }
 div#placeholder {
     margin: 5px auto 0px auto;
