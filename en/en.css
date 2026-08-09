@@ -1,3 +1,5 @@
 a[role="button"] {
     background-color: darkcyan;
+    color: white;
+    text-decoration: none;
 }

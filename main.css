@@ -7,3 +7,7 @@
 body {
     background: linear-gradient(45deg, rgb(0, 0, 0), rgb(5, 19, 22));
 }
+#lang-select::selection {
+    background-color: darkcyan;
+    color: white;
+}
