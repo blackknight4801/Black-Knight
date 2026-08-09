@@ -14,3 +14,7 @@ div#page {
 div#placeholder {
     margin: 5px auto 0px auto;
 }
+a[role="button"] {
+    border: black solid 1px;
+    border-radius: 10px;
+}
