@@ -1,5 +1,8 @@
 #lang-select {
     border: 1px rgb(25, 84, 78) solid;
     border-radius: 25px;
-    background-color: darkcyan;
+    background: linear-gradient(90deg, rgb(2, 67, 90), rgb(6, 24, 24));
+}
+body {
+    background-color: black;
 }
