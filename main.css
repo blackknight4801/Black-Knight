@@ -2,7 +2,8 @@
     border: 1px rgb(25, 84, 78) solid;
     border-radius: 25px;
     background: linear-gradient(90deg, rgb(2, 67, 90), rgb(6, 24, 24));
+    color: white;
 }
 body {
-    background-color: black;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(5, 19, 22));
 }
