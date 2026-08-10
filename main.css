@@ -7,7 +7,12 @@
 body {
     background: radial-gradient(circle at 50%, rgb(0, 0, 0), rgb(7, 30, 35));
 }
-#lang-select::selection {
+
+select#lang-select option {
     background-color: darkcyan;
     color: white;
+}
+select#lang-select option:hover {
+    background-color: darkblue;
+    color: silver;
 }
