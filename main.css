@@ -7,6 +7,12 @@
 body {
     background: linear-gradient(from left,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%);
 }
+figure > img {
+    border-radius: 30px;
+    display: block;
+    margin: 2px auto 5px auto;
+}
+
 
 select#lang-select option {
     background-color: darkcyan;
