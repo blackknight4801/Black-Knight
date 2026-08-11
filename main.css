@@ -5,7 +5,7 @@
     color: white;
 }
 body {
-    background: linear-gradient(from left,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%);
+    background: linear-gradient(90deg,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%);
 }
 figure > img {
     border-radius: 30px;
