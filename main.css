@@ -5,7 +5,7 @@
     color: white;
 }
 body {
-    background: radial-gradient(circle at 50%, rgb(0, 0, 0), rgb(7, 30, 35));
+    background: linear-gradient(from left,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%);
 }
 
 select#lang-select option {
