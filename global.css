@@ -43,18 +43,27 @@ div#footer {
 div.code-python {
     background-color: black;
     border-radius: 15px;
+    color: white;
 }
 div.code-json {
     background-color: black;
     border-radius: 15px;
+    color: white;
 }
 div.code-html {
     background-color: black;
     border-radius: 15px;
+    color: white;
 }
 div.code-css {
     background-color: black;
     border-radius: 15px;
+    color: white;
+}
+div.code-bash {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
 }
 /* CODE BLOCK FILES */
 div[class^="code-"] > div.file {
@@ -66,6 +75,7 @@ div[class^="code-"] > div.file > span.dir {
 div[class^="code-"] > div.file > img.icon {
     height: 15px;
     width: 15px;
+    display: inline-block;
 }
 /* PYTHON */ 
 div.code-python > div.code > div.line {
@@ -147,6 +157,10 @@ div.code-python > div.code > div.comment > span.TODO {
 div.code-python > div.code > div.comment > span.BUG {
     color: tomato;
 }
+div.code-bash > div.code > div.line > span.python3 {
+    color: rgba(255, 253, 143, 0.779);
+}
+
 /* JSON */
 div.code-json {}
 
