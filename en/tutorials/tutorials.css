@@ -1,0 +1,21 @@
+a[role="button"] {
+    background: linear-gradient(90deg, rgb(17, 25, 25), rgb(25, 85, 87) 50%);
+    color: white;
+    text-decoration: none;
+}
+select#code-select {
+    margin: 3px 5px 3px 5px;
+    border: 1px rgb(25, 84, 78) solid;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgb(2, 67, 90), rgb(6, 24, 24));
+    color: white;
+}
+
+select#code-select option {
+    background-color: darkcyan;
+    color: white;
+}
+select#code-select option:hover {
+    background-color: darkblue;
+    color: silver;
+}

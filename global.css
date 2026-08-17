@@ -162,7 +162,15 @@ div.code-bash > div.code > div.line > span.python3 {
 }
 
 /* JSON */
-div.code-json {}
+div.code-json > div.code > div.line > span.bracket1 {
+    color: yellow;
+}
+div.code-json > div.code > div.line > span.bracket2 {
+    color: purple;
+}
+div.code-json > div.code > div.line > span.bracket3 {
+    color: rgb(21, 61, 181);
+}
 
 /* HTML */
 div.code-html {
