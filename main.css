@@ -1,11 +1,14 @@
+@import url(https://blackknight4801.github.io/Black-Knight/global.css);
+
 #lang-select {
+    margin: 3px 5px 3px 5px;
     border: 1px rgb(25, 84, 78) solid;
     border-radius: 25px;
     background: linear-gradient(90deg, rgb(2, 67, 90), rgb(6, 24, 24));
     color: white;
 }
 body {
-    background: linear-gradient(90deg,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%);
+    background: --bk-bg-gradient;
 }
 figure > img {
     border-radius: 100px;
