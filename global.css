@@ -1,3 +1,4 @@
+/* MAIN PAGE CONFIG */
 div#placeholder > h1 {
     text-align: center;
 }
@@ -36,4 +37,69 @@ div#footer {
     color: white;
     padding: 5px 3px 2px 5px;
     font-size: 14px;
+}
+
+/* CODE BLOCKS */
+div.code-python {
+    background-color: black;
+    border-radius: 15px;
+}
+div.code-json {
+    background-color: black;
+    border-radius: 15px;
+}
+div.code-html {
+    background-color: black;
+    border-radius: 15px;
+}
+div.code-css {
+    background-color: black;
+    border-radius: 15px;
+}
+/* CODE BLOCK FILES */
+div.code-python > span.file, div.code-json > span.file, div.code-html > span.file, div.code-css > span.file {
+
+}
+/* PYTHON */ 
+div.code-python > div.code > span[class="1{"] {
+    color: yellow;
+}
+div.code-python > div.code > span[class="1}"] {
+    color: yellow;
+}
+div.code-python > div.code > span[class="2{"] {
+    color: purple;
+}
+div.code-python > div.code > span[class="2}"] {
+    color: purple;
+}
+div.code-python > div.code > span[class="3{"] {
+    color: rgb(67, 106, 162);
+}
+div.code-python > div.code > span[class="3}"] {
+    color: rgb(67, 106, 162);
+}
+div.code-python > div.code > span[class="import"] {
+    color: purple;
+}
+div.code-python > div.code > span[class="from"] {
+    color: purple;
+}
+div.code-python > div.code > span[class="if"] {
+    color: purple;
+}
+div.code-python > div.code > span[class="else"] {
+    color: purple;
+}
+/* JSON */
+div.code-json {}
+
+/* HTML */
+div.code-html {
+
+}
+
+/* CSS */
+div.code-css {
+    
 }
