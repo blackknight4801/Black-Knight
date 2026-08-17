@@ -57,39 +57,95 @@ div.code-css {
     border-radius: 15px;
 }
 /* CODE BLOCK FILES */
-div.code-python > span.file, div.code-json > span.file, div.code-html > span.file, div.code-css > span.file {
-
+div[class^="code-"] > div.file {
+    border-bottom: rgb(92, 91, 91) 1px solid;
+}
+div[class^="code-"] > div.file > span.dir {
+    color: white;
+}
+div[class^="code-"] > div.file > img.icon {
+    height: 15px;
+    width: 15px;
 }
 /* PYTHON */ 
-div.code-python > div.code > span[class="1{"] {
+div.code-python > div.code > div.line {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+div.code-python > div.code > div.line > span[class="bracket-1"] {
     color: yellow;
 }
-div.code-python > div.code > span[class="1}"] {
+div.code-python > div.code > div.line > span[class="bracket-2"] {
+    color: purple;
+}
+div.code-python > div.code > div.line > span[class="bracket-3"] {
+    color: rgb(21, 61, 181);
+}
+div.code-python > div.code > div.line > span[class="import"],
+div.code-python > div.code > div.line > span[class="from"],
+div.code-python > div.code > div.line > span[class="if"], 
+div.code-python > div.code > div.line > span[class="else"],
+div.code-python > div.code > div.line > span[class="with"],
+div.code-python > div.code > div.line > span[class="for"],
+div.code-python > div.code > div.line > span[class="raise"],
+div.code-python > div.code > div.line > span[class="print"],
+div.code-python > div.code > div.line > span[class="as"],
+div.code-python > div.code > div.line > span[class="disc"],
+div.code-python > div.code > div.line > span[class="return"] {
+    color: purple;
+}
+div.code-python > div.code > div.line > span[class="lib-used"],
+div.code-python > div.code > div.line > span[class="lib"],
+div.code-python > div.code > div.line > span[class="Exception"],
+div.code-python > div.code > div.line > span[class="type"] {
+    color: rgb(26, 215, 159);
+}
+div.code-python > div.code > div.line > span[class="lib-unused"] {
+    color: rgb(0, 139, 100);
+}
+div.code-python > div.code > div.line > span[class="func"] {
+    color: purple;
+}
+div.code-python > div.code > div.line > span[class="var"] {
+    color: white;
+}
+div.code-python > div.code > div.line > span[class="text"] {
+    color: lightblue;
+}
+div.code-python > div.code > div.line > span[class="in"], 
+div.code-python > div.code > div.line > span[class="True"],
+div.code-python > div.code > div.line > span[class="False"],
+div.code-python > div.code > div.line > span[class="not"],
+div.code-python > div.code > div.line > span[class="and"] {
+    color: blue;
+}
+div.code-python > div.code > div.line > span[class="async"],
+div.code-python > div.code > div.line > span[class="def"],
+div.code-python > div.code > div.line > span[class="f"] {
+    color: tomato;
+}
+div.code-python > div.code > div.line > span[class="arg"] {
+    color: orangered;
+}
+div.code-python > div.code > div.line > span[class="\n"] {
     color: yellow;
 }
-div.code-python > div.code > span[class="2{"] {
-    color: purple;
+div.code-python > div.code > div.line > span[class="number"] {
+    color: lightgreen;
 }
-div.code-python > div.code > span[class="2}"] {
-    color: purple;
+div.code-python > div.code > div.comment {
+    color: gray;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
-div.code-python > div.code > span[class="3{"] {
-    color: rgb(67, 106, 162);
+div.code-python > div.code > div.comment > span.WARN {
+    color: yellow,
 }
-div.code-python > div.code > span[class="3}"] {
-    color: rgb(67, 106, 162);
+div.code-python > div.code > div.comment > span.TODO {
+    color: orangered;
 }
-div.code-python > div.code > span[class="import"] {
-    color: purple;
-}
-div.code-python > div.code > span[class="from"] {
-    color: purple;
-}
-div.code-python > div.code > span[class="if"] {
-    color: purple;
-}
-div.code-python > div.code > span[class="else"] {
-    color: purple;
+div.code-python > div.code > div.comment > span.BUG {
+    color: tomato;
 }
 /* JSON */
 div.code-json {}
