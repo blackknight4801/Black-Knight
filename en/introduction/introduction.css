@@ -3,3 +3,12 @@ a[role="button"] {
     color: white;
     text-decoration: none;
 }
+a.heavenly {
+    color: yellow;
+}
+a.info-wiki {
+    color: darkcyan;
+}
+a.info-other {
+    color: darkcyan;
+}
