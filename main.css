@@ -1,7 +1,4 @@
-:root {
-    --bk-bg-grad: linear-gradient(90deg,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%);
-    
-}
+@import url("./global.css");
 
 #lang-select {
     margin: 3px 5px 3px 5px;
