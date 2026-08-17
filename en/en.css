@@ -3,3 +3,6 @@ a[role="button"] {
     color: white;
     text-decoration: none;
 }
+a.heavenly {
+    color: gold;
+}

@@ -25,5 +25,15 @@ a[role="button"] {
     padding: 1px 4px 1px 4px;
 }
 body#done {
-    background: linear-gradient(90deg,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%)
+    background: linear-gradient(90deg,rgb(0, 0, 0) 20%, rgb(20, 48, 54) 50%, rgb(0, 0, 0) 80%);
+}
+
+div#footer {
+    margin: 90% 0px 0px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(90deg,rgb(47, 79, 79) 20%, rgb(20, 48, 54) 50%, rgb(47, 79, 79) 80%);
+    color: white;
+    padding: 5px 3px 2px 5px;
+    font-size: 14px;
 }
