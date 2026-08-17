@@ -1,4 +1,4 @@
-@import url(https://blackknight4801.github.io/Black-Knight/global.css);
+@import "./global.css";
 
 #lang-select {
     margin: 3px 5px 3px 5px;
