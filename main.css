@@ -1,4 +1,4 @@
-@import "./global.css";
+@import url("global.css");
 
 #lang-select {
     margin: 3px 5px 3px 5px;
