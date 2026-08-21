@@ -30,13 +30,16 @@ body#done {
 }
 
 div#footer {
-    margin: 90% 0px 0px 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: linear-gradient(90deg,rgb(47, 79, 79) 20%, rgb(20, 48, 54) 50%, rgb(47, 79, 79) 80%);
     color: white;
     padding: 5px 3px 2px 5px;
     font-size: 14px;
+    position: fixed;
 }
 
 /* CODE BLOCKS */
