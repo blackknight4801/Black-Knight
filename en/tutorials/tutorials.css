@@ -10,7 +10,10 @@ select#tutorial-select {
     background: linear-gradient(90deg, rgb(2, 67, 90), rgb(6, 24, 24));
     color: white;
 }
-
+select#tutorial-select > optgroup {
+    background-color: darkcyan;
+    color: black
+}
 select#tutorial-select option {
     background-color: darkcyan;
     color: white;
