@@ -15,12 +15,20 @@
             <p>I'm a discord bot developer and have made countless bots with one notable one: Heavenly Honored – a discord bot solely made for the <a class="heavenly" href="https://heavenly-ascended.github.io/Heavenly-Ascended" target="_blank">Heavenly Ascended</a> TSB clan.</p>
             <hr>
             <p>What more would you like to know?</p>
-            <div id="link-buttons">
-                <a role="button" href="./introduction/">Introduction</a>
-                <a role="button" href="./tutorials/">Tutorials</a>
-                <a role="button" href="https://blackknight4801.github.io/Black-Knight/">Back</a>
-            </div>
-        </div>
+            <select id="page-select" onchange="var page = document.getElementById('page-select').value
+            if (page === 'landpage') {
+                document.location.href = 'https:/' + '/blackknight4801.github.io/Black-Knight'
+            } else {
+                document.location.href = 'https:/' + '/blackknight4801.github.io/Black-Knight/en/' + page
+            }">
+                <optgroup label="next">
+                    <option value="introduction">Introduction</option>
+                    <option value="tutorials">Tutorials</option>
+                </optgroup>
+                <optgroup label="back">
+                    <option value="landpage">Landpage</option>
+                </optgroup>
+            </select>
         <div id="footer" hidden>
             <p></p>
         </div>
