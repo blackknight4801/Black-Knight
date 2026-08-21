@@ -14,7 +14,7 @@ select#page-select {
     margin: 3px 5px 5px 3px;
 }
 select#page-select > optgroup {
-    color: grey;
+    color: black;
     background-color: darkcyan;
 }
 select#page-select > optgroup > option {

@@ -8,11 +8,33 @@
         <link rel="stylesheet" href="../../global.css">
         <link rel="icon" type="image/x-icon" href="../../images/Black-Knight/Black_Knight.png">
     </head>
-    <body>
-        <div id="placeholder">
-            <h1>Under work...</h1>
-            <p>This page is currently under work. Please come back later.</p>
-            <a role="button" href="../">Back</a>
+    <body id="done">
+        <div id="page">
+            <h1>Tutorials</h1>
+            <p>Want to learn something?<br>Well, you're in luck!<br><br>I have some tutorials you might be interested in!</p>
+            <select id="tutorial-select" onchange="var page = document.getElementById('tutorial-select').value
+            if (page === 'back1') {
+                document.location.href = 'https:/' + '/blackknight4801.github.io/Black-Knight/en'
+            } else if (page === 'back2') {
+                document.location.href = 'https:/' + '/blackknight4801.github.io/Black-Knight/'
+            } else if (page === 'javascript-base') {
+                document.location.href = 'https:/' + '/www.w3schools.com/js/'
+            } else if (page === 'javascript-bot') {
+                document.location.href = 'https:/' + '/discord.js'
+            } else {
+                document.location.href = 'https:/' + '/blackknight4801.github.io/Black-Knight/en/tutorials' + page
+            }
+            ">
+                <option disabled selected>Choose a tutorial...</option>
+                <optgroup label="Python">
+                    <option value="python-base">[WIP] Basic Python</option>
+                    <option value="python-bot">[WIP] Python Discord Bot (Disnake)</option>
+                <optgroup label="JavaScript">
+                    <option value="javascript-base">[EXTERNAL] Basic JavaScript</option>
+                    <option value="javascript-bot">[EXTERNAL] JavaScript Discord Bot (discord.js)</option>
+                </optgroup>
+                </optgroup>
+            </select>
         </div>
     </body>
 </html>
