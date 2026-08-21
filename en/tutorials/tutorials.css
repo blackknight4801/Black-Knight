@@ -3,7 +3,7 @@ a[role="button"] {
     color: white;
     text-decoration: none;
 }
-select#code-select {
+select#tutorial-select {
     margin: 3px 5px 3px 5px;
     border: 1px rgb(25, 84, 78) solid;
     border-radius: 25px;
@@ -11,11 +11,11 @@ select#code-select {
     color: white;
 }
 
-select#code-select option {
+select#tutorial-select option {
     background-color: darkcyan;
     color: white;
 }
-select#code-select option:hover {
+select#tutorial-select option:hover {
     background-color: darkblue;
     color: silver;
 }
