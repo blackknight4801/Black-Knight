@@ -1,0 +1,12 @@
+div#sidenavbar {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 15%;
+    max-width: 20%;
+    background-color: black;
+}
+div#sidenavbar > h1 {
+    text-align: center;
+    color: white;
+}
