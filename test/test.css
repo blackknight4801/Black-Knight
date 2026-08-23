@@ -4,8 +4,10 @@ div#sidenavbar {
     bottom: 0;
     min-width: 15%;
     max-width: 20%;
-    background-color: black;
+    background-color: rgb(54, 52, 52);
     margin: 0px 15px 0px 0px;
+    display:inline-block;
+    position: fixed;
 }
 div#sidenavbar > h1 {
     text-align: center;
