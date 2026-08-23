@@ -13,3 +13,7 @@ div#sidenavbar > h1 {
     text-align: center;
     color: white;
 }
+div#codestuff {
+    display: inline-block;
+    position:absolute
+}
