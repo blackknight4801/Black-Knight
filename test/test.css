@@ -2,8 +2,8 @@ div#sidenavbar {
     left: 0;
     top: 0;
     bottom: 0;
-    min-width: 15%;
-    max-width: 20%;
+    min-width: 150px;
+    max-width: 250px;
     background-color: rgb(54, 52, 52);
     margin: 0px 15px 0px 0px;
     display:inline-block;
@@ -15,5 +15,14 @@ div#sidenavbar > h1 {
 }
 div#codestuff {
     display: inline-block;
-    position:absolute
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    background-color: black;
+}
+div#codestuff > h1 {
+    text-align: center;
+    color: white;
 }
