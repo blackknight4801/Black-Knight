@@ -5,6 +5,7 @@ div#sidenavbar {
     min-width: 15%;
     max-width: 20%;
     background-color: black;
+    margin: 0px 15px 0px 0px;
 }
 div#sidenavbar > h1 {
     text-align: center;
