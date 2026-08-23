@@ -6,23 +6,27 @@ div#sidenavbar {
     max-width: 250px;
     background-color: rgb(54, 52, 52);
     margin: 0px 15px 0px 0px;
-    display:inline-block;
     position: fixed;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
 }
 div#sidenavbar > h1 {
     text-align: center;
     color: white;
 }
 div#codestuff {
-    display: inline-block;
+    left: 150px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top:0;
-    background-color: black;
+    display: block;
 }
 div#codestuff > h1 {
     text-align: center;
     color: white;
+}
+body#test {
+    background-color: rgb(30, 30, 30)
 }
