@@ -4,7 +4,7 @@ div#sidenavbar {
     bottom: 0;
     min-width: 150px;
     max-width: 250px;
-    background-color: rgb(54, 52, 52);
+    background: linear-gradient(90deg, rgb(54, 52, 52), rgb(31, 25, 25) 80%);
     margin: 0px 15px 0px 0px;
     position: fixed;
     border-top-right-radius: 15px;
@@ -28,5 +28,16 @@ div#codestuff > h1 {
     color: white;
 }
 body#test {
-    background-color: rgb(30, 30, 30)
+    background: linear-gradient(0deg, rgb(30, 30, 30), rgb(71, 63, 63))
+}
+noscript {
+    background-color: crimson;
+    position: fixed;
+    display: block;
+    margin-bottom: 50px;
+    height: 50px;
+}
+noscript > p {
+    text-align: center;
+    color:white;
 }
