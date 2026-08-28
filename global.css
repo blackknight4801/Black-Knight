@@ -87,9 +87,11 @@ div[class^="code-"] > div.file > img.icon {
     left: 2px;
     right: 0px;
 }
-div[class^="code-"] > div.code > div.line > span.tab {
+/*
+div[class^="code-"] > div.code > div.line > div.tab {
     width: 10px;
 }
+*/
 /* PYTHON */ 
 div.code-python > div.code > div.line {
     margin: 0px 0px 0px 0px;
