@@ -88,13 +88,13 @@ div[class^="code-"] > div.file > img.icon {
     right: 0px;
 }
 div[class^="code-"] > div.code > div.line > .tab1 {
-    margin-left: initial + 16px;
+    margin-left: 16px;
 }
 div[class^="code-"]>div.code>div.line>.tab2 {
-    margin-left: initial + 32px;
+    margin-left: 32px;
 }
 div[class^="code-"]>div.code>div.line>.tab3 {
-    margin-left: initial + 48px;
+    margin-left: 48px;
 }
 /*
 div[class^="code-"] > div.code > div.line > div.tab {
