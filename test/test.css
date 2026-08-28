@@ -14,19 +14,24 @@ div#sidenavbar > h1 {
     text-align: center;
     color: white;
 }
-div#codestuff {
+div#tutorial {
     left: 250px;
     right: 0px;
     top: 0px;
     bottom: 0px;
     position: absolute;
     display: block;
+    padding: 5px 3px 2px 7px;
 }
-div#codestuff > h1 {
+div#tutorial > h1 {
     text-align: center;
     color: white;
 }
-body#test {
+div#tutorial > p {
+    text-align: justify;
+    color: white;
+}
+body#code {
     background: linear-gradient(90deg, rgb(30, 30, 30), rgb(71, 63, 63) 80%)
 }
 noscript {

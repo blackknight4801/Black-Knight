@@ -11,15 +11,56 @@
             console.warn("Do not touch the console, especially if you're unsure what it does.\nDO NOT run any code if you don't know what it does!")
         </script>
     </head>
-    <body id="test">
+    <body id="code">
         <noscript>
             <p>Your browser doesn't allow Scripts to be ran!<br>Some things might not work properly!</p>
         </noscript>
         <div id="sidenavbar">
             <h1>Test</h1>
         </div>
-        <div id="codestuff">
-            <h1>Python: The Basics</h1>
+        <div id="tutorial">
+            <h1>Disnake: The Start</h1>
+            <p>This tutorial will show you how to create the most simple discord bot there is and run it.<br>First, let's create a discord bot:</p>
+            <ol>
+                <li>Visit the <a href="https://discord.com/developers/applications" target="_blank">Discord Developer Portal</a> and create an "application" (Log in when prompted).</li>
+                <li>Once the bot is created, it should be "opened". On the left, choose the "Bot" tab (Discord may prompt you to turn the application into a bot - just continue with it)</li>
+                <li>Now, turn on all options that have "Intent" in them and save the change.</li>
+                <li>Press "Reset Token", do whatever discord prompts you to do then press "Copy Token" and save it for later.</li>
+            </ol>
+            <p>Now that we have created our Bot and we have its token, let's start writing the code itself.</p>
+            <p>Create a python file (e.g bot.py) and open it, then paste in the following:</p>
+            <div class="code-python">
+                <div class="file">
+                    <span class="dir">/ > bot.py</span>
+                    <img src="../images/icons/Python.png" alt="Python Icon" class="icon">
+                </div>
+                <div class="code">
+                    <div class="line">
+                        <span class="import">import</span> <span class="lib-used">disnake</span>, <span class="lib-used">json</span>, <span class="lib-used"></span>
+                    </div>
+                    <div class="line">
+                        <span class="from">from</span> <span class="lib-used">disnake</span>.<span class="lib-used">ext</span> <span class="import">import</span> <span class="lib-used">commands</span>
+                    </div>
+                    <div class="code">
+                        <span class="from">from</span> <span class="lib-used">disnake</span> <span class="import">import</span> <span class="lib-unused">ui</span>, <span class="lib-unused">Localized</span>, <span class="lib-unused">Locale</span> <span class="comment"># ui makes it easier to create components, Locale and Localized are for creating translations for other languages.</span>
+                    </div>
+                    <div class="line">
+                        <span class="import">import</span> <span class="lib-used">datetime</span> <span class="as">as</span> <span class="lib-unused">dt</span> <span class="comment"># importing the datetime library as dt to make sure there is no overwriting and to make it easier to use.</span>
+                    </div>
+                    <div class="line">
+                        <span class="from">from</span> <span class="lib-used">datetime</span> <span class="import">import</span> <span class="lib-unused">datetime</span>, <span class="lib-unused">timedelta</span> <span class="comment"># This is to make it easier to calculate time. It will come in handy once we start working with commands such as timeout.</span>
+                    </div>
+                    <div class="line">
+                        
+                    </div>
+                    <div class="line">
+                        <span class="with">with</span> <span class="open">open</span><span class="bracket-1">(</span><span class="text">"config.json"</span>, <span class="text">"r"</span><span class="bracket-1">)</span> <span class="as">as</span> <span class="var">f</span>:
+                    </div>
+                    <div class="line">
+                        <span class="tab"></span><span class="var">config: </span><span class="type">dict</span><span class="var"> = </span><span class="lib">json</span>.<span class="func">load</span><span class="bracket-1">(</span>f<span class="bracket-1">)</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

@@ -80,6 +80,9 @@ div[class^="code-"] > div.file > img.icon {
     width: 15px;
     display: inline-block;
 }
+div[class^="code-"] > div.code > div.line > span.tab {
+    width: 10px;
+}
 /* PYTHON */ 
 div.code-python > div.code > div.line {
     margin: 0px 0px 0px 0px;
@@ -125,6 +128,9 @@ div.code-python > div.code > div.line > span[class="var"] {
 div.code-python > div.code > div.line > span[class="text"] {
     color: lightblue;
 }
+div.code-python > div.code > div.line > span.open {
+    color: darkslateblue;
+}
 div.code-python > div.code > div.line > span[class="in"], 
 div.code-python > div.code > div.line > span[class="True"],
 div.code-python > div.code > div.line > span[class="False"],
@@ -146,7 +152,7 @@ div.code-python > div.code > div.line > span[class="\n"] {
 div.code-python > div.code > div.line > span[class="number"] {
     color: lightgreen;
 }
-div.code-python > div.code > div.comment {
+div.code-python > div.code > div.comment, div.code-python > div.code > span.comment {
     color: gray;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
