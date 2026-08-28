@@ -27,6 +27,7 @@ div#tutorial > h1 {
     text-align: center;
     color: white;
 }
+div#tutorial > ol,
 div#tutorial > p {
     text-align: justify;
     color: white;
