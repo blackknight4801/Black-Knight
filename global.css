@@ -80,10 +80,8 @@ div[class^="code-"] > div.file > img.icon {
     height: 15px;
     width: 15px;
     display: inline-block;
-    top: auto;
-    bottom: auto;
-    right: 5px;
-    left: auto;
+    color: black;
+    margin: auto 3px auto auto;
 }
 div[class^="code-"] > div.code > div.line > span.tab {
     width: 10px;
