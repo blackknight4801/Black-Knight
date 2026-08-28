@@ -87,6 +87,15 @@ div[class^="code-"] > div.file > img.icon {
     left: 2px;
     right: 0px;
 }
+div[class^="code-"] > div.code > div.line > .tab1 {
+    margin-left: initial + 4px;
+}
+div[class^="code-"]>div.code>div.line>.tab2 {
+    margin-left: initial + 8px;
+}
+div[class^="code-"]>div.code>div.line>.tab3 {
+    margin-left: initial + 12px;
+}
 /*
 div[class^="code-"] > div.code > div.line > div.tab {
     width: 10px;
