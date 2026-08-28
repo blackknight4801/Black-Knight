@@ -80,8 +80,12 @@ div[class^="code-"] > div.file > img.icon {
     height: 15px;
     width: 15px;
     display: inline-block;
+    position:relative;
     color: black;
-    margin: auto 3px auto auto;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 0px;
 }
 div[class^="code-"] > div.code > div.line > span.tab {
     width: 10px;
@@ -155,7 +159,7 @@ div.code-python > div.code > div.line > span[class="\n"] {
 div.code-python > div.code > div.line > span[class="number"] {
     color: lightgreen;
 }
-div.code-python > div.code > div.comment, div.code-python > div.code > span.comment {
+div.code-python > div.code > div.comment, div.code-python > div.code > div.line > span.comment {
     color: gray;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
