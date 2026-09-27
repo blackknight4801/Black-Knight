@@ -32,3 +32,6 @@ a.more {
 a.more:hover {
     color:bisque;
 }
+div#footer {
+    padding: 5px auto 2px auto
+}
