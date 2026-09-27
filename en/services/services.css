@@ -1,7 +1,7 @@
 div[id$="-dev"] {
     border: 1px black dashed;
     border-radius: 15px;
-    margin: auto auto 20px auto;
+    margin: 10px auto auto auto;
     padding: 5px 4px 7px 4px;
     width: 500px;
     display: inline-block;
@@ -20,4 +20,8 @@ div[id$="-dev"] > h1 {
 }
 div[id$="-dev"] > p {
     text-align: justify;
+}
+p.note {
+    color: gray;
+    font-size: 15px;
 }
