@@ -12,7 +12,10 @@
         cards = document.getElementsByName("service-card")
         cards.forEach(element => {
             element.style.width = page_width / 2 - 40
+            element.style.marginLeft = 10
+            element.style.marginRight = 10
         });
+        console.log(`Width has been set to ${page_width / 2 - 40}`)
     </script>
 </head>
 <body id="done">
