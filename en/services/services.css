@@ -37,6 +37,11 @@ img.discord {
     margin: 5px auto 3px auto;
     height: 50px;
 }
+div#footer_content {
+    max-width: 300px;
+    min-width: 0px;
+    margin: 0px auto 0px auto;
+}
 span.cost {
     color: rgb(22, 197, 22);
 }
