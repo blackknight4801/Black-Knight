@@ -37,3 +37,6 @@ img.discord {
     margin: 5px auto 3px auto;
     height: 50px;
 }
+span.cost {
+    color: green;
+}
