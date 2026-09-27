@@ -5,7 +5,6 @@ div[id$="-dev"] {
     padding: 5px 4px 7px 4px;
     width: 500px;
     display: inline-block;
-    top: 10px;
 }
 div#discord-dev {
     background: linear-gradient(90deg, rgb(25, 82, 161), rgb(14, 17, 17));
