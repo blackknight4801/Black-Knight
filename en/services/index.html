@@ -8,7 +8,7 @@
     <link href="../../images/Black-Knight/Black_Knight.png" type="image/x-icon" rel="icon">
     <title>Black Knight – Services</title>
     <script>
-        page_width = document.getElementById("page").offsetWidth()
+        var page_width = document.getElementById("page").offsetWidth
         cards = document.getElementsByName("service-card")
         cards.forEach(element => {
             element.style.width = page_width / 2 - 40
