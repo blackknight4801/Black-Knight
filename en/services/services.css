@@ -1,7 +1,7 @@
 div[id$="-dev"] {
     border: 1px black dashed;
     border-radius: 15px;
-    margin: 10px auto 20px auto;
+    margin: auto auto 20px auto;
     padding: 5px 4px 7px 4px;
     width: 500px;
     display: inline-block;
