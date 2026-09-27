@@ -26,3 +26,9 @@ p.note {
     color: gray;
     font-size: 15px;
 }
+a.more {
+    color: white;
+}
+a.more:hover {
+    color:bisque;
+}
