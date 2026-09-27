@@ -1,9 +1,11 @@
 div[id$="-dev"] {
-    background: linear-gradient(90deg, rgb(25, 82, 161), rgb(14, 17, 17));
     border: 1px black dashed;
     border-radius: 15px;
     margin: 10px auto 20px auto;
     padding: 5px 4px 7px 4px;
+}
+div#discord-dev {
+    background: linear-gradient(90deg, rgb(25, 82, 161), rgb(14, 17, 17));
 }
 div[id$="-dev"] > h1, div[id$="-dev"] > p {
     color: white;

@@ -22,3 +22,7 @@ select#lang-select option:hover {
     background-color: darkblue;
     color: silver;
 }
+select#lang-select optgroup {
+    background-color: darkcyan;
+    color: black;
+}
