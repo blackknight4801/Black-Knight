@@ -3,6 +3,8 @@ div[id$="-dev"] {
     border-radius: 15px;
     margin: 10px auto 20px auto;
     padding: 5px 4px 7px 4px;
+    width: 200px;
+    display: inline-block;
 }
 div#discord-dev {
     background: linear-gradient(90deg, rgb(25, 82, 161), rgb(14, 17, 17));
