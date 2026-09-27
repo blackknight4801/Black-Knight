@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="./services.css" ref="stylesheet">
     <link href="../../images/Black-Knight/Black_Knight.png" type="image/x-icon" rel="icon">
     <title>Black Knight – Services</title>
+    <script>
+        page_width = document.getElementById("page").offsetWidth()
+        cards = document.getElementsByName("service-card")
+        cards.forEach(element => {
+            element.style.width = page_width / 2 - 40
+        });
+    </script>
 </head>
 <body id="done">
     <div id="page">
@@ -19,7 +26,7 @@
         <p>All services are free during Christmas.</p>
         <p class="note">I am aware that USD and EUR are not the same in value, still, the prices will stay the same</p>
         <div id="services">
-            <div id="discord-dev">
+            <div id="discord-dev" name="service-card">
                 <h1>Discord Bot Development</h1>
                 <p>I agree to develop discord bots for a small fee. Prices for the most usual </p>
                 <p>Offers:</p>
@@ -29,12 +36,12 @@
                 </ul>
                 <a href="./discord_bot" class="more">Learn more</a>
             </div>
-            <div id="fluxer-dev">
+            <div id="fluxer-dev" name="service-card">
                 <h1>Fluxer Bot Development</h1>
                 <p>Currently, this service is not available due to many reasons, some being that fluxer is still in beta and the lack of experience I have with Fluxer and their bots.</p>
             </div>
                 </div>
         </div>
-        <div id="footer"><img class="discord" src="../../images/icons/discord.png" title="black_knight4801" onclick="navigator.clipboard.writeText('black_knight4801')"></div>
+        <div id="footer"><img class="discord" src="../../images/icons/discord.png" title="black_knight4801" onclick="navigator.clipboard.writeText('black_knight4801')" draggable="false"></div>
 </body>
 </html>

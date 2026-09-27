@@ -33,6 +33,7 @@ a.more:hover {
     color:bisque;
 }
 img.discord {
-    text-align: center;
+    display: inline-block;
+    margin: 5px auto 3px auto;
     height: 50px;
 }
