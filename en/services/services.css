@@ -43,5 +43,5 @@ div#footer_content {
     margin: 0px auto 0px auto;
 }
 span.cost {
-    color: rgb(22, 197, 22);
+    text-decoration: underline rgb(22, 197, 22);
 }
