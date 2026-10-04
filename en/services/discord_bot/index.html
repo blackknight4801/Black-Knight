@@ -39,8 +39,20 @@
         <h4>Warn system</h4>
         <p>A warn system that can be used to discipline members.<br>This package will normally come with the following commands:</p>
         <ul>
-            <li>/warn add: used to warn/add a warn to the specified member.</li>
+            <li>/warn add: used to warn/add a warn to the specified member, for given reason and duration. Can optionally have severity.</li>
+            <li>/warn list: lists the warnings (with all data) of a member. 5 warns per "page". Requires a member as target.</li>
+            <li>/warn remove: removes the given warn by id. Requires the id of the warn.</li>
         </ul>
+        <p>Cost: <span class="cost">3$/3€</span></p>
+    </div>
+    <div class="footer">
+        <p>Press to interact:</p>
+        <div id="footer-content"><img src="../../../images/icons/discord.png" alt="Discord: black_knight4801" class="discord" title="black_knight4801" onclick="try {
+            navigator.clipboard.writeText('black_knight4801')
+        } finally {
+            console.log('Copied username to clipboard.')
+            window.open('https:/' + '/discord.com/channels/me', '_blank')
+        }"></div>
     </div>
 </body>
 </html>

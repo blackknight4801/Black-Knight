@@ -16,3 +16,9 @@ div#footer_content {
     min-width: 0px;
     margin: 0px auto 0px auto;
 }
+div#footer > p {
+    text-align: center;
+}
+div#page {
+    padding: 3px 4px 4px 5px;
+}
