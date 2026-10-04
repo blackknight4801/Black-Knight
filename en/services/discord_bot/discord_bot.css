@@ -7,7 +7,7 @@ span.cost {
     text-decoration: underline rgb(22, 197, 22);
 }
 img.discord {
-    display: inline-block;
+    display: block;
     margin: 5px auto 3px auto;
     height: 50px;
 }
