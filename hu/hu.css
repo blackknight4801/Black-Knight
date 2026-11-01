@@ -15,13 +15,7 @@ select#page-select {
 }
 select#page-select > optgroup {
     color: black;
-    background-color: darkcyan;
 }
 select#page-select > optgroup > option {
     color: white;
-    background-color: darkcyan;
-}
-select#page-select > optgroup > option:hover {
-    color: black;
-    background-color: silver;
 }
