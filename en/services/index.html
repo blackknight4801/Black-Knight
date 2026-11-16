@@ -9,13 +9,14 @@
     <title>Black Knight – Services</title>
     <script>
         var page_width = document.getElementById("page").offsetWidth
-        cards = document.getElementsByName("service-card")
-        cards.forEach(element => {
-            element.style.width = page_width / 2 - 40
-            element.style.marginLeft = 10
-            element.style.marginRight = 10
-        });
-        console.log(`Width has been set to ${page_width / 2 - 40}`)
+        document.getElementsByClassName("service-card").forEach(card => {
+            card.style.width = page_width / 2 - 40
+            card.style.marginLeft = 10
+            card.style.marginRight = 10
+            console.log(`Configured element ${card.name}`)
+        })
+            console.log(`Width has been set to ${page_width / 2 - 40}
+        });`)
     </script>
 </head>
 <body id="done">
@@ -29,7 +30,7 @@
         <p>All services are free during Christmas.</p>
         <p class="note">I am aware that USD and EUR are not the same in value, still, the prices will stay the same</p>
         <div id="services">
-            <div id="discord-dev" name="service-card">
+            <div id="discord-dev" class="service-card">
                 <h1>Discord Bot Development</h1>
                 <p>I agree to develop discord bots for a small fee. Prices for the most usual </p>
                 <p>Offers:</p>
@@ -39,7 +40,7 @@
                 </ul>
                 <a href="./discord_bot" class="more">Learn more</a>
             </div>
-            <div id="fluxer-dev" name="service-card">
+            <div id="fluxer-dev" class="service-card">
                 <h1>Fluxer Bot Development</h1>
                 <p>Currently, this service is not available due to many reasons, some being that fluxer is still in beta and the lack of experience I have with Fluxer and their bots.</p>
             </div>
