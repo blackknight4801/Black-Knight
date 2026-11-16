@@ -3,7 +3,7 @@ div[id$="-dev"] {
     border-radius: 15px;
     margin: 10px auto 20px auto;
     padding: 5px 4px 7px 4px;
-    min-width: fit-content;
+    min-width: min-content;
     max-width: 500px;
     display: inline-block;
     vertical-align: top;
@@ -45,4 +45,7 @@ div#footer-content {
 }
 span.cost {
     text-decoration: underline rgb(22, 197, 22);
+}
+div#page {
+    padding: inherit 25px inherit 25px;
 }
